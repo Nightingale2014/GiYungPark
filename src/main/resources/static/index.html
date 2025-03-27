@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>포털 사이트</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 부트스트랩 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f8fb;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #2196f3, #1e88e5);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card {
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      border-radius: 12px;
+    }
+
+    footer {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 상단 배너 -->
+<section class="hero">
+  <div class="container">
+    <h1>환영합니다!</h1>
+    <p class="lead">최신 정보와 서비스를 손쉽게 확인하세요.</p>
+    <a href="#" class="btn btn-light btn-lg">서비스 보기</a>
+  </div>
+</section>
+
+<!-- 주요 서비스 카드 -->
+<section class="container my-5">
+  <div class="row">
+    <!-- 게시판 -->
+    <img src="/images/bulletin.png"
+         alt="게시판"
+         style="height: 200px; width: 100%; object-fit: contain; padding: 20px;">
+        <div class="card-body text-center">
+          <h5 class="card-title">게시판</h5>
+          <p class="card-text">다양한 주제의 게시글을 확인하고 참여하세요.</p>
+          <a href="board.html" class="btn btn-primary">게시판 가기</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 공지사항 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?announcement,megaphone"
+             alt="공지사항"
+             style="width: 80px; height: 80px; object-fit: contain; margin: 20px auto 0; display: block;">
+        <div class="card-body">
+          <h5 class="card-title">공지사항</h5>
+          <p class="card-text">중요한 공지와 업데이트를 확인하세요.</p>
+          <a href="notice.html" class="btn btn-primary">공지사항 보기</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 회원관리 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?user,profile"
+             alt="회원 관리"
+             style="width: 80px; height: 80px; object-fit: contain; margin: 20px auto 0; display: block;">
+        <div class="card-body">
+          <h5 class="card-title">회원 관리</h5>
+          <p class="card-text">회원 정보를 확인하고 관리하세요.</p>
+          <a href="register.html" class="btn btn-primary">회원 가입</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 푸터 -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 포털 사이트. 모든 권리 보유.</p>
+</footer>
+
+<!-- 부트스트랩 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
