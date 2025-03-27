@@ -2,6 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
+<<<<<<< HEAD
   <title>포털 사이트</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -20,10 +21,23 @@
 
     .hero {
       background: linear-gradient(to right, #2196f3, #1e88e5);
+=======
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>포털 페이지</title>
+
+  <!-- 부트스트랩 CSS 추가 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* 추가적인 스타일 (필요에 따라 변경 가능) */
+    .hero {
+      background: url('https://source.unsplash.com/1600x900/?technology,city') no-repeat center center/cover;
+>>>>>>> 8482b5dd0c58d1b50dd96e1c2653c951f1fbbe1a
       color: white;
       text-align: center;
       padding: 100px 20px;
     }
+<<<<<<< HEAD
 
     .hero h1 {
       font-size: 3rem;
@@ -46,30 +60,56 @@
 
     footer {
       margin-top: 50px;
+=======
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .announcement {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 10px;
+>>>>>>> 8482b5dd0c58d1b50dd96e1c2653c951f1fbbe1a
     }
   </style>
 </head>
 <body>
 
+<<<<<<< HEAD
 <!-- 네비게이션 바 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="index.html">포털 사이트</a>
+=======
+<!-- ✅ 1. 네비게이션 바 -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">포털 사이트</a>
+>>>>>>> 8482b5dd0c58d1b50dd96e1c2653c951f1fbbe1a
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
+<<<<<<< HEAD
         <li class="nav-item"><a class="nav-link active" href="index.html">홈</a></li>
         <li class="nav-item"><a class="nav-link" href="board.html">게시판</a></li>
         <li class="nav-item"><a class="nav-link" href="notice.html">공지사항</a></li>
         <li class="nav-item"><a class="nav-link" href="register.html">회원가입</a></li>
         <li class="nav-item"><a class="nav-link" href="login.html">로그인</a></li>
+=======
+        <li class="nav-item"><a class="nav-link active" href="#">홈</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">게시판</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">공지사항</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">회원가입</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">로그인</a></li>
+>>>>>>> 8482b5dd0c58d1b50dd96e1c2653c951f1fbbe1a
       </ul>
     </div>
   </div>
 </nav>
 
+<<<<<<< HEAD
 <!-- 메인 배너 -->
 <section class="hero">
   <div class="container">
@@ -133,6 +173,80 @@
 
 
 <!-- 푸터 -->
+=======
+<!-- ✅ 2. 메인 배너 -->
+<section class="hero">
+  <div class="container">
+    <h1 class="display-4 fw-bold">환영합니다!</h1>
+    <p class="lead">최신 정보와 서비스를 손쉽게 확인하세요.</p>
+    <a href="#" class="btn btn-primary btn-lg">서비스 보기</a>
+  </div>
+</section>
+
+<!-- ✅ 3. 핵심 서비스 모듈 -->
+<section class="container my-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?business" class="card-img-top" alt="서비스 1">
+        <div class="card-body">
+          <h5 class="card-title">게시판</h5>
+          <p class="card-text">다양한 주제의 게시글을 확인하고 참여하세요.</p>
+          <a href="#" class="btn btn-primary">게시판 가기</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?news" class="card-img-top" alt="서비스 2">
+        <div class="card-body">
+          <h5 class="card-title">공지사항</h5>
+          <p class="card-text">중요한 공지와 업데이트를 확인하세요.</p>
+          <a href="#" class="btn btn-primary">공지사항 보기</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?teamwork" class="card-img-top" alt="서비스 3">
+        <div class="card-body">
+          <h5 class="card-title">회원 관리</h5>
+          <p class="card-text">회원 정보를 확인하고 관리하세요.</p>
+          <a href="#" class="btn btn-primary">회원 관리</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ 4. 공지사항 & 최신 게시글 -->
+<section class="container my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="announcement">
+        <h4>📢 공지사항</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">[공지] 서비스 점검 안내</a></li>
+          <li><a href="#">[업데이트] 새로운 기능 추가</a></li>
+          <li><a href="#">[이벤트] 커뮤니티 이벤트 진행</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="announcement">
+        <h4>📰 최신 게시글</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">"포털 사이트 사용법 안내" - by Admin</a></li>
+          <li><a href="#">"내가 추천하는 맛집 리스트" - by User123</a></li>
+          <li><a href="#">"개발자 필수 도구 소개" - by Dev_Guy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ✅ 5. 푸터 -->
+>>>>>>> 8482b5dd0c58d1b50dd96e1c2653c951f1fbbe1a
 <footer class="bg-dark text-white text-center py-3">
   <p>&copy; 2025 포털 사이트. 모든 권리 보유.</p>
   <a href="#" class="text-white">이용약관</a> | <a href="#" class="text-white">개인정보처리방침</a>
