@@ -1,0 +1,106 @@
+/* 기본 레이아웃 */
+.navbar {
+  display: flex;
+  flex-direction: column; /* 2단 헤더로 설정 */
+  align-items: center;
+  background-color: #ffffff; /* 하얀색 배경 */
+  color: #6a0dad; /* 보라색 텍스트 */
+  padding: 20px 0;
+}
+
+/* 첫 번째 줄: '인터파크' 텍스트 */
+.navbar-left {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-left .logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #6a0dad;
+}
+
+/* 두 번째 줄: 네비게이션 메뉴 */
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0 20px;
+}
+
+.nav-links li {
+  margin: 0 15px;
+  font-weight: 700;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #6a0dad;
+}
+
+.nav-links a:hover {
+  color: #3f0e77;
+}
+
+.search-bar {
+  padding: 15px;
+  margin-right: 20px;
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #f0f0f0;
+}
+
+.login-signup button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  background-color: #fff;
+  color: #6a0dad;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.login-signup button:hover {
+  background-color: #f0f0f0;
+}
+
+/* 모바일에서 헤더 조정 */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .search-bar {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .login-signup {
+    margin-top: 10px;
+  }
+}

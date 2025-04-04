@@ -1,0 +1,65 @@
+/* 헤더 스타일 */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .header-container .logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #5e2f92;
+    margin-right: 10px;
+  }
+  
+  .header-container .ticket-icon {
+    font-size: 24px;
+    margin-left: 5px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    flex-grow: 1;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 30px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #5e2f92;
+    font-weight: bold;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 전체 화면 높이를 채움 */
+  }
+  
+  .content {
+    flex: 1; /* 컨텐츠 영역을 차지하도록 설정 */
+  }
+  
+  footer {
+    margin-top: auto; /* 푸터가 아래로 밀려 내려오도록 설정 */
+  }
+  
